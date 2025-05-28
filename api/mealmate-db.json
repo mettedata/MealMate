@@ -1,0 +1,80 @@
+{
+  "recipes": [
+    {
+      "id": 1,
+      "title": "Quick Veggie Stir Fry",
+      "ingredients": [1, 2, 3],
+      "diet": "vegetarian",
+      "prepTime": 15,
+      "instructions": "Stir-fry vegetables in sesame oil and add soy sauce to taste."
+    },
+    {
+      "id": 2,
+      "title": "Chicken Avocado Wrap",
+      "ingredients": [4, 5, 6],
+      "diet": "high-protein",
+      "prepTime": 10,
+      "instructions": "Layer cooked chicken, avocado, and greens in a whole wheat wrap."
+    },
+    {
+      "id": 3,
+      "title": "Lentil Soup",
+      "ingredients": [7, 8, 9],
+      "diet": "vegan",
+      "prepTime": 30,
+      "instructions": "Simmer lentils, carrots, and spices in vegetable broth until soft."
+    },
+    {
+      "id": 4,
+      "title": "Overnight Oats",
+      "ingredients": [10, 11, 12],
+      "diet": "vegetarian",
+      "prepTime": 5,
+      "instructions": "Combine oats, milk, and fruit. Refrigerate overnight."
+    }
+  ],
+  "ingredients": [
+    { "id": 1, "name": "Broccoli", "category": "vegetable", "isVegan": true },
+    { "id": 2, "name": "Bell Pepper", "category": "vegetable", "isVegan": true },
+    { "id": 3, "name": "Soy Sauce", "category": "condiment", "isVegan": true },
+    { "id": 4, "name": "Cooked Chicken", "category": "protein", "isVegan": false },
+    { "id": 5, "name": "Avocado", "category": "fruit", "isVegan": true },
+    { "id": 6, "name": "Whole Wheat Wrap", "category": "grain", "isVegan": true },
+    { "id": 7, "name": "Lentils", "category": "protein", "isVegan": true },
+    { "id": 8, "name": "Carrots", "category": "vegetable", "isVegan": true },
+    { "id": 9, "name": "Vegetable Broth", "category": "liquid", "isVegan": true },
+    { "id": 10, "name": "Rolled Oats", "category": "grain", "isVegan": true },
+    { "id": 11, "name": "Almond Milk", "category": "dairy alternative", "isVegan": true },
+    { "id": 12, "name": "Blueberries", "category": "fruit", "isVegan": true }
+  ],
+  "plans": [
+    {
+      "id": 1,
+      "name": "Busy Week Vegetarian Plan",
+      "recipes": [1, 3, 4],
+      "diet": "vegetarian",
+      "duration": "3 days"
+    },
+    {
+      "id": 2,
+      "name": "High-Protein Plan",
+      "recipes": [2, 3],
+      "diet": "high-protein",
+      "duration": "2 days"
+    },
+    {
+      "id": 3,
+      "name": "Quick Start Vegan Plan",
+      "recipes": [3, 4],
+      "diet": "vegan",
+      "duration": "2 days"
+    },
+    {
+      "id": 4,
+      "name": "5-Day MealMate Sampler",
+      "recipes": [1, 2, 3, 4],
+      "diet": "mixed",
+      "duration": "5 days"
+    }
+  ]
+}
