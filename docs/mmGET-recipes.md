@@ -1,0 +1,3 @@
+# GET /recipes
+
+Placeholder text
