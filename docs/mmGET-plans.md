@@ -1,0 +1,3 @@
+# GET /plans
+
+Placeholder text.

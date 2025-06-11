@@ -1,0 +1,3 @@
+# GET /ingredients
+
+Placeholder text.
