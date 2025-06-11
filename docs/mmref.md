@@ -2,9 +2,9 @@
 
 Explore the meal planning, recipe, and ingredient information the MealMate API provides using these endpoints:
 
-* GET /ingredients
-* GET /ingredients/{id}
-* GET /recipes
-* GET /recipes/{id}
-* GET /plans
-* GET /plans/{id}
+* [GET ingredients](mmGET-ingredients.md)
+* [GET ingredients by id](mmGET-ingredients-id.md)
+* [GET recipes](mmGET-recipes.md)
+* [GET recipes by id](mmGET-recipes-id.md)
+* [GET plans](mmGET-plans.md)
+* [GET plans by id](mmGET-plans-id.md)
