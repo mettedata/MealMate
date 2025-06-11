@@ -20,7 +20,7 @@ The following query parameters are available to filter the results. All paramete
 
 | Name | Data Type | Required/Optional | Description |
 | --- | --- | --- | --- |
-| `diet` | String | Optional | Filter plans by dietary classification (e.g., "vegetarian", "vegan"). |
+| `diet` | String | Optional | Filter plans by dietary classification (example: "vegetarian", "vegan"). |
 | `duration`| String | Optional | Filter plans by their duration (e.g., "3 days"). |
 | `limit` | Integer | Optional | The maximum number of plans to return. |
 | `offset` | Integer | Optional | The number of plans to skip, used for pagination. |

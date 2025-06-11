@@ -21,7 +21,7 @@ The following query parameters are available to filter the results. All paramete
 | Name | Data Type | Required/Optional | Description |
 | --- | --- | --- | --- |
 | `name` | String | Optional | Search for an ingredient by its name. |
-| `category`| String | Optional | Filter ingredients by category (e.g., "vegetable", "protein"). |
+| `category`| String | Optional | Filter ingredients by category (example: "vegetable", "protein"). |
 | `isVegan` | Boolean | Optional | Filter ingredients by their vegan status (`true` or `false`). |
 | `limit` | Integer | Optional | The maximum number of ingredients to return. |
 | `offset` | Integer | Optional | The number of ingredients to skip, used for pagination. |

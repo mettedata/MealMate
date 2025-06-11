@@ -20,7 +20,7 @@ The following query parameters are available to filter the results. All paramete
 
 | Name | Data Type | Required/Optional | Description |
 | --- | --- | --- | --- |
-| `diet` | String | Optional | Filter recipes by dietary classification (e.g., "vegetarian", "vegan"). |
+| `diet` | String | Optional | Filter recipes by dietary classification (example: "vegetarian", "vegan"). |
 | `prepTime`| Integer | Optional | Filter for recipes with a preparation time less than or equal to the specified value (in minutes). |
 | `ingredients` | String | Optional | Filter for recipes containing specific ingredients. (Note: Filtering logic may vary). |
 | `limit` | Integer | Optional | The maximum number of recipes to return. |
