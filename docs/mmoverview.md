@@ -1,8 +1,6 @@
-# Welcome to the MealMeate API
+# How the MealMate API Can Help You
 
-**Cook smarter, not harder.**
-
-The MealMate RESTful API is a powerful yet simple tool designed to help users and developers alike tackle the everyday challenge of meal planning. It provides programmatic access to a database of recipes, ingredients, and pre-designed meal plans. Whether you're looking to suggest a quick dinner based on ingredients on hand, help users browse pantry staples, or generate comprehensive weekly meal plans, the MealMate API offers the data and functionality you need.
+ Whether you're looking to suggest a quick dinner based on ingredients on hand, help users browse pantry staples, or generate comprehensive weekly meal plans, the MealMate API offers the data and functionality you need.
 
 ## Why Use the MealMate API?
 
@@ -28,4 +26,4 @@ You can leverage the MealMate API to build a variety of applications and feature
 
 >>>Provide beginners with simple recipes and ingredient information to help them learn to cook.
 
-[Get Started](./mmget-started.md) | [Tutorial](./mmtutorial.md) | [Reference](./mmref.md)
+[Get Started](./mmget-started.md) | [Tutorials](./mmtutorial.md) | [Reference](./mmref.md)
