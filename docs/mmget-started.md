@@ -4,25 +4,19 @@ The MealMate API is designed to be easy to use.
 
 ## Before you Start
 
-Before you start to use the MealMate API, ensure that you have your development environment set up and configured correctly.
+Ensure that you have your development environment set up and configured correctly [before you start][def] to use the MealMate API.
 
-To set up your development environment, you need these tools and software:
-
-* A GitHub account
-* A development system running a current or a long-term support (LTS) version of the Windows, MacOS, or Linux operating system.
-* The following software on your development system:
-    * Git, command line.
-    * GitHub Desktop (Optional, but recommended).
-    * A current or LTS version of node.js
-    * Version 0.17.4 of json-server
-    * Postman
 
 ## Base URL and Authentication
 
 <http://localhost:3000>
 
 This is a local development URL for this project.
-No authentication is required to us this API.
+No authentication is required to us this API. You can make this request using cURL, Postman, or a tool like Postman.
+
+## Data Format
+
+The API uses JSON for all requests and responses.
 
 ## Your First Call
 
@@ -34,5 +28,46 @@ Let's start with a call to ensure you can connect to the MealMate API and retrie
 
 ### Steps in cURL
 
+1. Open a command-line application such as Terminal on macOS or PowerShell on Windows.
+2. Enter (or copy and paste) the following command into the terminal window:
+
+```Bash
+curl -X GET http:localhost:3000/ingredients
+```
+
 ### Steps in Postman
 
+1. Set the method to GET.
+2. Set the Request URL to `http://localhost:3000/ingredients`.
+
+    This call requires no headers or body content.
+3. Click **Send**.
+
+### Expected Success Response
+
+When your request is successful, the API returns a `200 OK` status and a JSON array of ingredient objects, similar to this:
+
+```JSON
+[
+  { 
+    "id": 1, 
+    "name": "Broccoli", 
+    "category": "vegetable", 
+    "isVegan": true 
+  },
+  { 
+    "id": 2, 
+    "name": "Bell Pepper", 
+    "category": "vegetable", 
+    "isVegan": true 
+  },
+  { 
+    "id": 3, 
+    "name": "Soy Sauce", 
+    "category": "condiment", 
+    "isVegan": true 
+  }
+]
+```
+
+[def]: mmbefore-you-start.md
