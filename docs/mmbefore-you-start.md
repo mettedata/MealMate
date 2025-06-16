@@ -5,7 +5,7 @@ To ensure an optimal experience using the MealMate API, we list required and rec
 
 To set up your development environment, you must have these tools and software:
 
-* [A GitHub account](https://github.com) You can sign up for a free account on the official GitHub website.
+* **[A GitHub account](https://github.com)**: You can sign up for a free account on the official GitHub website.
 * A development system running a current or a long-term support (LTS) version of the Windows, MacOS, or Linux operating system.
 
 To run the mock API server, you must have the following software installed on your development system:
@@ -21,6 +21,8 @@ The examples in this guide use `cURL` and `Postman` to demonstrate API calls. Wh
 * **[cURL][def5]**: A command-line tool for transferring data with URLs. It comes pre-installed on most macOS and Linux systems.
 * **[Postman][def6]**: Desktop application for API testing.
 * **[GitHub Desktop][def7]**: Desktop application for branching, committing, an dsynchronizing your project with GitHub.
+
+[Home](./index.md) | [Get Started](./mmget-started.md) | [Tutorials](./mmtutorial.md) | [Reference](./mmref.md)
 
 [def2]: git-scm.com/downloads
 [def3]: https://www.npmjs.com/package/json-server

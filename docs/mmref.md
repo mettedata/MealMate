@@ -8,3 +8,5 @@ Explore the meal planning, recipe, and ingredient information the MealMate API p
 * [GET recipes by id](mmGET-recipes-id.md)
 * [GET plans](mmGET-plans.md)
 * [GET plans by id](mmGET-plans-id.md)
+
+[Home](./index.md) | [Before You Start](./mmbefore-you-start.md) | [Get Started](./mmget-started.md) | [Tutorials](./mmtutorial.md)
