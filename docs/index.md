@@ -10,7 +10,7 @@ The MealMate API contains three resources:
 * [Recipes][def2]: Provides meal suggestions based on their preferred ingredients, time constraints, and dietary needs.
 * [Plans][def3]: Provides pre-designed meal plans for a set number of days and filtered by dietary needs.
 
-Or, you can continue to explore and click a link to dive in!
+Click a link and continue to explore...
 
 [Before You Start](./mmbefore-you-start.md) | [Get Started](./mmget-started.md) | [Tutorials](./mmtutorial.md) | [Reference](./mmref.md)
 

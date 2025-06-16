@@ -1,6 +1,6 @@
 # Tutorials (draft)
 
-The MealMate service enables you to retrieve recipes, meal plans, and ingredients. Try these tutorials for the most common tasks busy cooks need.
+The MealMate service enables you to retrieve recipes, meal plans, and ingredients. Try these tutorials for the most common tasks busy meal planners need.
 
 * [Find a Quick Vegetarian Recipe][def]
 * [Find Ingredients with Specific Attributes][def2]
@@ -11,3 +11,5 @@ The MealMate service enables you to retrieve recipes, meal plans, and ingredient
 [def2]: ./tutorials/tut-get-ingredients-vegan-protein.md
 [def3]: ./tutorials/tut-get-plan-diet-duration.md
 [def4]: ./tutorials/tut-get-ingredients-limit-offset.md
+
+[Home](./index.md) | [Before You Start](./mmbefore-you-start.md) | [Get Started](./mmget-started.md) | [Reference](./mmref.md)

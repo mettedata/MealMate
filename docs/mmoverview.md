@@ -24,4 +24,4 @@ You can leverage the MealMate API to build a variety of applications and feature
 
     Provide beginners with simple recipes and ingredient information to help them learn to cook.
 
-[Get Started](./mmget-started.md) | [Tutorials](./mmtutorial.md) | [Reference](./mmref.md)
+[Home](./index.md) | [Before You Start](./mmbefore-you-start.md) | [Get Started](./mmget-started.md) | [Tutorials](./mmtutorial.md) | [Reference](./mmref.md)
