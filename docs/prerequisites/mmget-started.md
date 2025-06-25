@@ -2,7 +2,7 @@
 
 The MealMate API is designed to be easy to use. Making your first call takes about 5 minutes.
 
-## Before you Start
+## Before Your First Call
 
 Ensure that you have your development environment set up and configured correctly [before you start][def] to use the MealMate API.
 
@@ -71,6 +71,8 @@ When your request is successful, the API returns a `200 OK` status and a JSON ar
 ]
 ```
 
-[Home](./index.md) | [Tutorials](./mmtutorial.md) | [Reference](./mmref.md)
+## Other Links
+
+[Home](../index.md) | [Tutorials](../mmtutorial.md) | [Reference](../reference/)
 
 [def]: mmbefore-you-start.md

@@ -1,6 +1,14 @@
-# Endpoint References (draft)
+# References
 
-Explore the meal planning, recipe, and ingredient information the MealMate API provides using these endpoints:
+Explore the MealMate service's resources and endpoints.
+
+## Resources
+
+* [Ingredients](./reference/ingredients.md)
+* [Recipes](./reference/recipes.md)
+* [Plans](./reference/plans.md)
+
+## Endpoints
 
 * [GET ingredients](mmGET-ingredients.md)
 * [GET ingredients by id](mmGET-ingredients-id.md)
@@ -9,4 +17,6 @@ Explore the meal planning, recipe, and ingredient information the MealMate API p
 * [GET plans](mmGET-plans.md)
 * [GET plans by id](mmGET-plans-id.md)
 
-[Home](./index.md) | [Before You Start](./mmbefore-you-start.md) | [Get Started](./mmget-started.md) | [Tutorials](./mmtutorial.md)
+## Other Links
+
+[Home](./index.md) | [Prerequisites](./mmprefland.md) | [Tutorials](./mmtutorial.md)

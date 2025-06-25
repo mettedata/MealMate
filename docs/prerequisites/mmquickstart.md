@@ -48,5 +48,8 @@ Follow these steps to ensure that the server works locally.
 
 ## Next Steps
 
-Now that you've verified that the MealMate service is started, keep the terminal open and make your first call to the MealMate API using the [Get Started](mmget-started.md) guide.
+Now that you've verified that the MealMate service is started, keep the terminal open and use the [Get Started](mmget-started.md) guide to make your first call to the MealMate API.
 
+## Other Links
+
+[Home](../index.md) | [Tutorials](../mmtutorial.md) | [Reference](../reference/)

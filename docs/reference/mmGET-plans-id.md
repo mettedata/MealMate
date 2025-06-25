@@ -74,3 +74,7 @@ curl -X GET https://localhost:3000/plans/1
   "duration": "3 days"
 }
 ```
+
+## Other Links
+
+[Home](../index.md) | [Prerequisites](../mmprefland.md) | [Tutorials](../mmtutorial.md)
