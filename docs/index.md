@@ -12,7 +12,7 @@ The MealMate API contains three resources:
 
 Click a link and continue to explore...
 
-[Before You Start](./mmbefore-you-start.md) | [Get Started](./mmget-started.md) | [Tutorials](./mmtutorial.md) | [Reference](./mmref.md)
+[Prerequisites](mmprefland.md) | [Tutorials](mmtutorial.md) | [Reference](mmref.md)
 
 [def]: ./mmGET-ingredients.md
 [def2]: ./mmGET-recipes.md

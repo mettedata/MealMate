@@ -1,11 +1,12 @@
-# Get Started (in progress)
+# Get Started
 
-The MealMate API is designed to be easy to use.
+The MealMate API is designed to be easy to use. Making your first call takes about 5 minutes.
 
 ## Before you Start
 
 Ensure that you have your development environment set up and configured correctly [before you start][def] to use the MealMate API.
 
+After you set up your development environment, follow this [quickstart](mmquickstart.md) guide to set up the MealMate API and start the service.
 
 ## Base URL and Authentication
 
