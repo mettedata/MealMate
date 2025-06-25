@@ -68,3 +68,7 @@ curl -X GET https://localhost:3000/ingredients/3
   "isVegan": true 
 }
 ```
+
+## Other Links
+
+[Home](../index.md) | [Prerequisites](../mmprefland.md) | [Tutorials](../mmtutorial.md)

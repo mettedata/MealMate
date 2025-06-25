@@ -76,3 +76,7 @@ curl -X GET https://localhost:3000/recipes/2
   "instructions": "Layer cooked chicken, avocado, and greens in a whole wheat wrap."
 }
 ```
+
+## Other Links
+
+[Home](../index.md) | [Prerequisites](../mmprefland.md) | [Tutorials](../mmtutorial.md)
