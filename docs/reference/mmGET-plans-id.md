@@ -14,7 +14,7 @@ None
 
 | Name | Data Type | Required/Optional | Description |
 | --- | --- | --- | --- |
-| `id` | Integer | Required | The unique identifier for the meal plan. |
+| `id` | `integer` | Required | The unique identifier for the meal plan. |
 
 ### Query Parameters
 
@@ -37,11 +37,11 @@ The endpoint returns a single Plan object with the following properties:
 
 | Property Name | Data Type | Description | Example Value |
 | --- | --- | --- | --- |
-| `id` | Integer | The unique identifier for the plan. | `1` |
-| `name` | String | The name of the meal plan. | `"Busy Week Vegetarian Plan"` |
-| `recipes`| Array of Integers | A list of recipe IDs included in the plan. | `[1, 3, 4]` |
-| `diet` | String | The dietary classification of the plan. | `"vegetarian"` |
-| `duration`| String | The duration of the plan. | `"3 days"` |
+| `id` | `integer` | The unique identifier for the plan. | `1` |
+| `name` | `string` | The name of the meal plan. | `"Busy Week Vegetarian Plan"` |
+| `recipes`| `array of integers` | A list of recipe IDs included in the plan. | `[1, 3, 4]` |
+| `diet` | `string` | The dietary classification of the plan. | `"vegetarian"` |
+| `duration`| `string` | The duration of the plan. | `"3 days"` |
 
 ### Example (id = 1)
 

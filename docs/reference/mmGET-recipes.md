@@ -20,11 +20,11 @@ The following query parameters are available to filter the results. All paramete
 
 | Name | Data Type | Required/Optional | Description |
 | --- | --- | --- | --- |
-| `diet` | String | Optional | Filter recipes by dietary classification (example: "vegetarian", "vegan"). |
-| `prepTime`| Integer | Optional | Filter for recipes with a preparation time less than or equal to the specified value (in minutes). |
-| `ingredients` | String | Optional | Filter for recipes containing specific ingredients. (Note: Filtering logic may vary). |
-| `limit` | Integer | Optional | The maximum number of recipes to return. |
-| `offset` | Integer | Optional | The number of recipes to skip, used for pagination. |
+| `diet` | `string` | Optional | The filters for recipes by dietary classification. (Examples: "vegetarian", "vegan"). |
+| `prepTime`| `integer` | Optional | The filter for recipes with a preparation time less than or equal to the specified value (in minutes). |
+| `ingredients` | `string` | Optional | The filters for recipes containing specific ingredients. (Note: Filtering logic may vary.) |
+| `limit` | `integer` | Optional | The maximum number of recipes to return. |
+| `offset` | `integer` | Optional | The number of recipes to skip. Used for pagination when making subsequent API calls. |
 
 ### Request Body
 
@@ -35,6 +35,8 @@ None
 | Code | Description |
 | --- | --- |
 | `200 OK` | Returns a collection of Recipe objects. If no recipes match the query, an empty collection is returned. |
+| `400 Bad Request` | The server cannot process the request due to malformed syntax, invalid request message framing, or deceptive request routing. This could be due to invalid parameters or headers in your GET request. |
+| `404 Not Found` | The server cannot find the requested resource. This can happen in GET requests when the URL path is incorrect or the resource identified by the ID (for example, GET /recipes/999) does not exist. |
 
 ### Recipe Object
 
@@ -42,12 +44,12 @@ The `GET /recipes` endpoint returns an array of Recipe objects. Each object has 
 
 | Property Name | Data Type | Description | Example Value |
 | --- | --- | --- | --- |
-| `id` | Integer | The unique identifier for the recipe. | `1` |
-| `title` | String | The name of the recipe. | `"Quick Veggie Stir Fry"` |
-| `ingredients`| Array of Integers | A list of ingredient IDs used in the recipe. | `[1, 2, 3]` |
-| `diet` | String | The dietary classification of the recipe. | `"vegetarian"` |
-| `prepTime`| Integer | The preparation time in minutes. | `15` |
-| `instructions`| String | The steps to prepare the recipe. | `"Stir-fry vegetables in sesame oil and add soy sauce to taste."` |
+| `id` | `integer` | The unique identifier for the recipe. | `1` |
+| `title` | `string` | The name of the recipe. | `"Quick Veggie Stir Fry"` |
+| `ingredients`| `array of integers` | A list of ingredient IDs used in the recipe. | `[1, 2, 3]` |
+| `diet` | `string` | The dietary classification of the recipe. | `"vegetarian"` |
+| `prepTime`| `integer` | The preparation time in minutes. | `15` |
+| `instructions`| `string` | The steps to prepare the recipe. | `"Stir-fry vegetables in sesame oil and add soy sauce to taste."` |
 
 ### Example
 
