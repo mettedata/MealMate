@@ -2,6 +2,8 @@
 
 The MealMate API can help you find recipes that match specific needs, such as dietary restrictions and how much time you have to cook. This tutorial will walk you through filtering the API's recipes to find a vegetarian meal that can be prepared in 15 minutes or less.
 
+This tutorial takes about 10 minutes to complete.
+
 ## Get Started
 
 This tutorial requires a local JSON server to make API calls. Before you begin, please ensure your server is running. All API calls must be performed in a separate program or window, such as Postman or a command-line terminal for cURL.

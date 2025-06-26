@@ -38,8 +38,8 @@ Follow these steps to ensure that the server works locally.
     Done
 
      Resources
-     http://localhost:3000/ingredients
      http://localhost:3000/recipes
+     http://localhost:3000/ingredients
      http://localhost:3000/plans
 
      Home

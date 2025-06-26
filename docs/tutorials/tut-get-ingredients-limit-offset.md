@@ -2,6 +2,8 @@
 
 When an API can return a large number of items, it often uses pagination to break the results into smaller, more manageable pages. This tutorial guide you through using the `limit` and `offset` parameters to fetch a specific page of results from the API.
 
+This tutorial takes about 10 minutes to complete.
+
 ## Get Started
 
 This tutorial requires a local JSON server to make API calls. Before you begin, please ensure your server is running. All API calls must be performed in a separate program or window, such as Postman or a command-line terminal for cURL. All examples use the base URL `http://localhost:3000`.

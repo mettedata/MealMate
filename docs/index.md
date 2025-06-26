@@ -6,14 +6,17 @@ The MealMate RESTful API is a powerful yet simple tool designed to help users an
 
 The MealMate API contains three resources:
 
-* [Ingredients][def]: Enables meal planners to browse commonly stocked pantry items available in the MealMate API database.
-* [Recipes][def2]: Provides meal suggestions based on their preferred ingredients, time constraints, and dietary needs.
-* [Plans][def3]: Provides pre-designed meal plans for a set number of days and filtered by dietary needs.
+* [Ingredients](./reference/mmGET-ingredients-id.md): Enables meal planners to browse commonly stocked pantry items available in the MealMate API database.
+* [Recipes](./reference/recipes.md): Provides meal suggestions based on their preferred ingredients, time constraints, and dietary needs.
+* [Plans](./reference/plans.md): Provides pre-designed meal plans for a set number of days and filtered by dietary needs.
 
-Click a link and continue to explore...
+**Click a link and continue to explore...**
 
-[Prerequisites](mmprefland.md) | [Tutorials](mmtutorial.md) | [Reference](mmref.md)
+[Prerequisites](mmprefland.md) provides guides on how to:
+ Set up your developement environment
+ Copy the API locally and start it.
+ Make your first call to the API
+ 
+ [Tutorials](mmtutorial.md) provides step-by-step instruction on common requests you might make to the API.
 
-[def]: ./mmGET-ingredients.md
-[def2]: ./mmGET-recipes.md
-[def3]: ./mmGET-plans-id.md
+ [Reference](mmref.md) provides in-depth information on the service's resources and available endpoints.
