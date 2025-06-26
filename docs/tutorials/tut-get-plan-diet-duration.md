@@ -2,6 +2,8 @@
 
 This tutorial guides you through using the GET /plans endpoint to find a meal plan that matches a specific diet and duration. This is useful for meal planners who have weekly planning requirements.
 
+This tutorial takes about 10 minutes to complete.
+
 ## Get Started
 
 This tutorial requires a local JSON server to make API calls. Before you begin, please ensure your server is running. All API calls must be performed in a separate program or window, such as Postman or a command-line terminal for cURL. All examples use the base URL `http://localhost:3000`.
