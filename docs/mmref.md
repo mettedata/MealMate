@@ -10,12 +10,12 @@ Explore the MealMate service's resources and endpoints.
 
 ## Endpoints
 
-* [GET ingredients](mmGET-ingredients.md)
-* [GET ingredients by id](mmGET-ingredients-id.md)
-* [GET recipes](mmGET-recipes.md)
-* [GET recipes by id](mmGET-recipes-id.md)
-* [GET plans](mmGET-plans.md)
-* [GET plans by id](mmGET-plans-id.md)
+* [GET ingredients](./reference/mmGET-ingredients.md)
+* [GET ingredients by id](./reference/mmGET-ingredients-id.md)
+* [GET recipes](./reference/mmGET-recipes.md)
+* [GET recipes by id](./reference/mmGET-recipes-id.md)
+* [GET plans](./reference/mmGET-plans.md)
+* [GET plans by id](./reference/mmGET-recipes-id.md)
 
 ## Other Links
 
