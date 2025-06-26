@@ -20,11 +20,11 @@ The following query parameters are available to filter the results. All paramete
 
 | Name | Data Type | Required/Optional | Description |
 | --- | --- | --- | --- |
-| `name` | String | Optional | Search for an ingredient by its name. |
-| `category`| String | Optional | Filter ingredients by category (example: "vegetable", "protein"). |
-| `isVegan` | Boolean | Optional | Filter ingredients by their vegan status (`true` or `false`). |
-| `limit` | Integer | Optional | The maximum number of ingredients to return. |
-| `offset` | Integer | Optional | The number of ingredients to skip, used for pagination. |
+| `name` | `string` | Optional | Search for an ingredient by its name. |
+| `category`| `string` | Optional | Filter ingredients by category (Examples: "vegetable", "protein"). |
+| `isVegan` | `boolean` | Optional | Filter ingredients by their vegan status (`true` or `false`). |
+| `limit` | `integer` | Optional | The maximum number of ingredients to return. |
+| `offset` | `integer` | Optional | The number of ingredients to skip. Used for pagination when making subseqent API calls. |
 
 ### Request Body
 
@@ -35,6 +35,7 @@ None
 | Code | Description |
 | --- | --- |
 | `200 OK` | Returns a collection of Ingredient objects. If no ingredients match the query, an empty collection is returned. |
+| `404 Not Found` | Returned if an ingredient with the specified ID does not exist. |
 
 ### Ingredient Object
 
@@ -42,10 +43,10 @@ The `GET /ingredients` endpoint returns an array of Ingredient objects. Each obj
 
 | Property Name | Data Type | Description | Example Value |
 | --- | --- | --- | --- |
-| `id` | Integer | The unique identifier for the ingredient. | `1` |
-| `name` | String | The common name of the ingredient. | `"Broccoli"` |
-| `category`| String | The category the ingredient belongs to. | `"vegetable"` |
-| `isVegan` | Boolean | Indicates if the ingredient is vegan. | `true` |
+| `id` | `integer` | The unique identifier for the ingredient. | `1` |
+| `name` | `string` | The common name of the ingredient. | `"Broccoli"` |
+| `category`| `string` | The category the ingredient belongs to. | `"vegetable"` |
+| `isVegan` | `boolean` | Indicates if the ingredient is vegan. | `true` |
 
 ### Example
 

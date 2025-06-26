@@ -20,10 +20,10 @@ The following query parameters are available to filter the results. All paramete
 
 | Name | Data Type | Required/Optional | Description |
 | --- | --- | --- | --- |
-| `diet` | String | Optional | Filter plans by dietary classification (example: "vegetarian", "vegan"). |
-| `duration`| String | Optional | Filter plans by their duration (e.g., "3 days"). |
-| `limit` | Integer | Optional | The maximum number of plans to return. |
-| `offset` | Integer | Optional | The number of plans to skip, used for pagination. |
+| `diet` | `string` | Optional | Filter plans by dietary classification (Example: "vegetarian", "vegan"). |
+| `duration`| `string` | Optional | Filter plans by their duration (e.g., "3 days"). |
+| `limit` | `integer` | Optional | The maximum number of plans to return. |
+| `offset` | `integer` | Optional | The number of plans to skip, used for pagination when making subsequent API calls. |
 
 ### Request Body
 
@@ -41,11 +41,11 @@ The `GET /plans` endpoint returns an array of Plan objects. Each object has the 
 
 | Property Name | Data Type | Description | Example Value |
 | --- | --- | --- | --- |
-| `id` | Integer | The unique identifier for the plan. | `1` |
-| `name` | String | The name of the meal plan. | `"Busy Week Vegetarian Plan"` |
-| `recipes`| Array of Integers | A list of recipe IDs included in the plan. | `[1, 3, 4]` |
-| `diet` | String | The dietary classification of the plan. | `"vegetarian"` |
-| `duration`| String | The duration of the plan. | `"3 days"` |
+| `id` | `integer` | The unique identifier for the plan. | `1` |
+| `name` | `string` | The name of the meal plan. | `"Busy Week Vegetarian Plan"` |
+| `recipes`| `array of integers` | A list of recipe IDs included in the meal plan. | `[1, 3, 4]` |
+| `diet` | `string` | The dietary classification of the plan. | `"vegetarian"` |
+| `duration`| `string` | The duration of the plan. | `"3 days"` |
 
 ### Example
 

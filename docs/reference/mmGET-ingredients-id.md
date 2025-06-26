@@ -14,7 +14,7 @@ None
 
 | Name | Data Type | Required/Optional | Description |
 | --- | --- | --- | --- |
-| `id` | Integer | Required | The unique identifier for the ingredient.  |
+| `id` | `integer` | Required | The unique identifier for the ingredient.  |
 
 ### Query Parameters
 
@@ -37,10 +37,10 @@ The endpoint returns a single Ingredient object with the following properties:
 
 | Property Name | Data Type | Description | Example Value |
 | --- | --- | --- | --- |
-| `id` | Integer | The unique identifier for the ingredient.  | `3` |
-| `name` | String | The common name of the ingredient.  | `"Soy Sauce"` |
-| `category`| String | The category the ingredient belongs to.  | `"condiment"` |
-| `isVegan` | Boolean | Indicates if the ingredient is vegan.  | `true` |
+| `id` | `integer` | The unique identifier for the ingredient.  | `3` |
+| `name` | `string` | The common name of the ingredient.  | `"Soy Sauce"` |
+| `category`| `string` | The category the ingredient belongs to.  | `"condiment"` |
+| `isVegan` | `boolean` | Indicates if the ingredient is vegan.  | `true` |
 
 ### Example (id = 3)
 

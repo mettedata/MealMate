@@ -13,7 +13,7 @@ The MealMate API contains three resources:
 **Click a link and continue to explore...**
 
 [Prerequisites](mmprefland.md) provides guides on how set up your development environment, start the API, and make your first call.
- 
+
  [Tutorials](mmtutorial.md) provides step-by-step instruction on common requests you might make to the API.
 
  [Reference](mmref.md) provides in-depth information on the service's resources and available endpoints.

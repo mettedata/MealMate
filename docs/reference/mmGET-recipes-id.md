@@ -14,7 +14,7 @@ None
 
 | Name | Data Type | Required/Optional | Description |
 | --- | --- | --- | --- |
-| `id` | Integer | Required | The unique identifier for the recipe. |
+| `id` | `integer` | Required | The unique identifier for the recipe. |
 
 ### Query Parameters
 
@@ -37,12 +37,12 @@ The endpoint returns a single Recipe object with the following properties:
 
 | Property Name | Data Type | Description | Example Value |
 | --- | --- | --- | --- |
-| `id` | Integer | The unique identifier for the recipe. | `2` |
-| `title` | String | The name of the recipe. | `"Chicken Avocado Wrap"` |
-| `ingredients`| Array of Integers | A list of ingredient IDs used in the recipe. | `[4, 5, 6]` |
-| `diet` | String | The dietary classification of the recipe. | `"high-protein"` |
-| `prepTime`| Integer | The preparation time in minutes. | `10` |
-| `instructions`| String | The steps to prepare the recipe. | `"Layer cooked chicken, avocado, and greens in a whole wheat wrap."` |
+| `id` | `integer` | The unique identifier for the recipe. | `2` |
+| `title` | `string` | The name of the recipe. | `"Chicken Avocado Wrap"` |
+| `ingredients`| `array of integers` | A list of ingredient IDs used in the recipe. | `[4, 5, 6]` |
+| `diet` | `string` | The dietary classification of the recipe. | `"high-protein"` |
+| `prepTime`| `integer` | The preparation time in minutes. | `10` |
+| `instructions`| `string` | The brief, basic steps to prepare the recipe. | `"Layer cooked chicken, avocado, and greens in a whole wheat wrap."` |
 
 ### Example (id = 2)
 
