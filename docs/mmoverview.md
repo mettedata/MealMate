@@ -1,4 +1,4 @@
-# Why Use the MealMate API?
+# App Use Cases to Consider
 
  Whether you're looking to suggest a quick dinner based on ingredients on hand, help users browse pantry staples, or generate comprehensive weekly meal plans, the MealMate API offers the data and functionality you need.
 
@@ -26,4 +26,4 @@ You can leverage the MealMate API to build a variety of applications and feature
 
 ## Other Links
 
-[Home](./index.md) | [Prerequisites](./mmprefland.md) | [Tutorials](./mmtutorial.md) | [Reference](./mmref.md)
+[Home](./index.md) |  [Architecture](./mmarchitecture.md)  |  [Diagrams](./mmdiagrams.md)  | [Prerequisites](./mmprefland.md) | [Tutorials](./mmtutorial.md) | [Reference](./mmref.md)
