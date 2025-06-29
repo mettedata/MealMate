@@ -2,18 +2,26 @@
 
 **Cook smarter, not harder.**
 
-The MealMate RESTful API is a powerful yet simple tool designed to help users and developers alike tackle the everyday challenge of meal planning. It provides programmatic access to a database of recipes, ingredients, and pre-designed meal plans. [Learn more](./mmoverview.md) about how the service can help you build an app for your busy meal planners.
+The MealMate RESTful API is a powerful yet simple tool designed to help users and developers alike tackle the everyday challenge of meal planning. It provides programmatic access to a database of recipes, ingredients, and pre-designed meal plans. Learn more about the architecture of the API and how how the MealMate service can help you build an app for your busy meal planners.
 
-The MealMate API contains three resources:
+* **[App Use Cases for Consideration](mmoverview.md)**
+* **[MealMate Service Architecture](mmarchitecture.md)**
+* **[Resource Diagrams](mmdiagrams.md)**
 
-* [Ingredients](./reference/ingredients.md): Enables meal planners to browse commonly stocked pantry items available in the MealMate API database.
-* [Recipes](./reference/recipes.md): Provides meal suggestions based on their preferred ingredients, time constraints, and dietary needs.
-* [Plans](./reference/plans.md): Provides pre-designed meal plans for a set number of days and filtered by dietary needs.
+
+The MealMate API contains 3 resources:
+
+* **[Ingredients](./reference/ingredients.md)**: Enables meal planners to browse
+commonly stocked pantry items available in the MealMate API database.
+
+* **[Recipes](./reference/recipes.md)**: Provides meal suggestions based on their preferred ingredients, time constraints, and dietary needs.
+
+* **[Plans](./reference/plans.md)**: Provides pre-designed meal plans for a set number of days and filtered by dietary needs.
 
 **Click a link and continue to explore...**
 
-[Prerequisites](mmprefland.md) provides guides on how set up your development environment, start the API, and make your first call.
+* **[Prerequisites](mmprefland.md)**: Provides guides on how set up your development environment, start the API, and make your first call.
 
- [Tutorials](mmtutorial.md) provides step-by-step instruction on common requests you might make to the API.
+* **[Tutorials](mmtutorial.md)**: Provides step-by-step instruction for  common requests you might make to the API.
 
- [Reference](mmref.md) provides in-depth information on the service's resources and available endpoints.
+* **[Reference](mmref.md)**: Provides in-depth information on the service's resources and available endpoints.

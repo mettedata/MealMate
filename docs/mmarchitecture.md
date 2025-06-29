@@ -40,4 +40,4 @@ All API endpoints are relative to a base URL. For local development and testing,
 
 ## Other Links
 
-[Home](./index.md) | [Prerequisites](./mmprefland.md) | [Tutorials](./mmtutorial.md) | [Reference](./mmref.md)
+[Home](./index.md)  |  [Architecture](./mmarchitecture.md)  |  [Diagrams](./mmdiagrams.md) | [Prerequisites](./mmprefland.md) | [Tutorials](./mmtutorial.md) | [Reference](./mmref.md)
