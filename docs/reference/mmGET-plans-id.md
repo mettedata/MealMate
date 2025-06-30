@@ -75,6 +75,14 @@ curl -X GET https://localhost:3000/plans/1
 }
 ```
 
+## Other Endpoints
+
+* [GET /ingredients](../reference/mmGET-ingredients.md)
+* [GET /ingredients by id](../reference/mmGET-ingredients-id.md)
+* [GET /recipes](../reference/mmGET-recipes.md)
+* [GET /recipes by id](../reference/mmGET-recipes-id.md)
+* [GET /plans](../reference/mmGET-plans.md)
+
 ## Other Links
 
 [Home](../index.md) | [Prerequisites](../mmprefland.md) | [Tutorials](../mmtutorial.md)
