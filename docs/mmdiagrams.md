@@ -31,7 +31,7 @@ A key architectural feature of the MealMate API is that is links  resources by t
 
 The following is a diagram of the MealMate resource IDs relationship model:
 
-[Resource ID Relationship Model](./images/MealMateDiagram.png)
+![Resource ID Relationship Model](./images/MealMateDiagram.png)
 
 ## Other Links
 
