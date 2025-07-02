@@ -6,7 +6,7 @@ These steps should take less than 5 minutes.
 
 ## Prerequisites
 
-See [Before Your Start](mmbefore-you-start.md] to ensure that you have your development environment set up and configured correctly.
+See [Before Your Start](mmbefore-you-start.md) to ensure that you have your development environment set up and configured correctly.
 
 ## Copy the Repository
 
@@ -52,4 +52,4 @@ Now that you've verified that the MealMate service is started, keep the terminal
 
 ## Other Links
 
-[Home](../index.md) | [Tutorials](../mmtutorial.md) | [Reference](../reference/)
+[Home](../index.md) | [Setup](../mmprefland.md) | [Tutorials](../mmtutorial.md) | [Reference](../mmref.md)

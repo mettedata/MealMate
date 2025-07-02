@@ -6,7 +6,7 @@ The MealMate API is designed to be easy to use. Making your first call takes abo
 
 Ensure that you have your development environment set up and configured correctly [before you start][def] to use the MealMate API.
 
-After you set up your development environment, follow this [quickstart](mmquickstart.md) guide to set up the MealMate API and start the service.
+After you set up your development environment, follow this [Quick Start](mmquickstart.md) guide to set up the MealMate API and start the service.
 
 ## Base URL and Authentication
 
@@ -48,7 +48,7 @@ curl -X GET http:localhost:3000/ingredients
 
 When your request is successful, the API returns a `200 OK` status and a JSON array of ingredient objects, similar to this:
 
-```JSON
+```json
 [
   { 
     "id": 1, 
@@ -71,8 +71,12 @@ When your request is successful, the API returns a `200 OK` status and a JSON ar
 ]
 ```
 
+## Next Steps
+
+Try the [tutorials](../mmtutorial.md) to practice making other types of calls.
+
 ## Other Links
 
-[Home](../index.md) | [Tutorials](../mmtutorial.md) | [Reference](../reference/)
+[Home](../index.md) |  [Setup](../mmprefland.md)  | [Tutorials](../mmtutorial.md) | [Reference](../mmref.md)
 
 [def]: mmbefore-you-start.md

@@ -36,7 +36,7 @@ ou can find the recipe using an API client like Postman or a command-line tool l
 
 For both Postman and cURL, the API returns a JSON array of recipe objects that match your criteria:
 
-```JSON
+```json
 [
   {
     "id": 1,
@@ -56,4 +56,16 @@ For both Postman and cURL, the API returns a JSON array of recipe objects that m
   }
 ]
 ```
+
 The query parameter `diet=vegetarian` filters the results to show only recipes with the `vegetarian` property. The `prepTime=15` parameter further narrows the results to recipes that have a preparation time of 15 minutes or less.
+
+## Other Tutorials
+
+* [Find a Specific Meal Plan](tut-get-plan-diet-duration.md)
+* [Find Ingredients with Specific Attributes](tut-get-ingredients-vegan-protein.md)
+* [Paginate Results](tut-get-ingredients-limit-offset.md)
+
+## Other Links
+
+[Home](../index.md) | [Setup](../mmprefland.md) | [Tutorials](../mmtutorial.md) | [Reference](../mmref.md)
+

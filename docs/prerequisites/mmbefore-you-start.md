@@ -1,4 +1,5 @@
 # Before You Start
+
 To ensure an optimal experience using the MealMate API, we list required and recommended software and tools.
 
 ## Required Environment
@@ -22,7 +23,13 @@ The examples in this guide use `cURL` and `Postman` to demonstrate API calls. Wh
 * **[Postman][def6]**: Desktop application for API testing.
 * **[GitHub Desktop][def7]**: Desktop application for branching, committing, an dsynchronizing your project with GitHub.
 
-[Home](./index.md) | [Get Started](./mmget-started.md) | [Tutorials](./mmtutorial.md) | [Reference](./mmref.md)
+## Next Steps
+
+[Make your first call](./mmget-started.md) to the MealMate API.
+
+## Other Links
+
+[Home](../index.md)  | [Setup](../mmprefland.md) | [Tutorials](../mmtutorial.md) | [Reference](../mmref.md)
 
 [def2]: git-scm.com/downloads
 [def3]: https://www.npmjs.com/package/json-server

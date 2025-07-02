@@ -78,3 +78,13 @@ The request returns a 200 OK status and a JSON array containing the second page 
   }
 ]
 ```
+
+## Other Tutorials
+
+* [Find a Quick Vegetarian Reciper](tut-get-recipe-diet-time.md)
+* [Find Ingredients with Specific Attributes](tut-get-ingredients-vegan-protein.md)
+* [Find a Specific Meal Plan](tut-get-plan-diet-duration.md)
+
+## Other Links
+
+[Home](../index.md) | [Setup](../mmprefland.md) | [Tutorials](../mmtutorial.md) | [Reference](../mmref.md)
