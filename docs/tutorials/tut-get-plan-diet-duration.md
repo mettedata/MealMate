@@ -35,9 +35,9 @@ Use the endpoint and add query parameters to filter the results based on the `di
 
 ### Response
 
-The request returns a 200 OK status and a JSON array containing the plan objects that match your criteria.
+The request returns a `200 OK` status and a JSON array containing the plan objects that match your criteria.
 
-```JSON
+```json
 [
   {
     "id": 3,
@@ -51,3 +51,13 @@ The request returns a 200 OK status and a JSON array containing the plan objects
   }
 ]
 ```
+
+## Other Tutorials
+
+* [Find a Quick Vegetarian Recipe](tut-get-recipe-diet-time.md)
+* [Find Ingredients with Specific Attributes](tut-get-ingredients-vegan-protein.md)
+* [Paginate Results](tut-get-ingredients-limit-offset.md)
+
+## Other Links
+
+[Home](../index.md) | [Setup](../mmprefland.md) | [Tutorials](../mmtutorial.md) | [Reference](../mmref.md)

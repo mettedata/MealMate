@@ -35,9 +35,9 @@ Use the endpoint and add query parameters to filter the results based on the `ve
 
 ### Response
 
-The request returns a 200 OK status and a JSON array containing the ingredient objects that match both of your criteria.
+The request returns a `200 OK` status and a JSON array containing the ingredient objects that match both of your criteria.
 
-```JSON
+```json
 [
   {
     "id": 7,
@@ -47,3 +47,13 @@ The request returns a 200 OK status and a JSON array containing the ingredient o
   }
 ]
 ```
+
+## Other Tutorials
+
+* [Find a Quick Vegetarian Recipe](tut-get-recipe-diet-time.md)
+* [Find a Specific Meal Plan](tut-get-plan-diet-duration.md)
+* [Paginate Results](tut-get-ingredients-limit-offset.md)
+
+## Other Links
+
+[Home](../index.md) | [Setup](../mmprefland.md) | [Tutorials](../mmtutorial.md) | [Reference](../mmref.md)
