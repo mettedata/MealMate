@@ -6,7 +6,7 @@ You can leverage the MealMate API to build a variety of applications and feature
 
 * **Recipe suggestion engines**
 
-    Create tools that suggest recipes baed on ingredients your users already have, minimizing food waste and inspiring new meal ideas.
+    Create tools that suggest recipes based on ingredients your users already have, minimizing food waste and inspiring new meal ideas.
 
 * **Dietary and heath apps**
 

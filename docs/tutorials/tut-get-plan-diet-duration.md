@@ -1,6 +1,6 @@
 # Find a Specific Meal Plan
 
-This tutorial guides you through using the GET /plans endpoint to find a meal plan that matches a specific diet and duration. This is useful for meal planners who have weekly planning requirements.
+This tutorial guides you through using the GET /plans endpoint to find a meal plan that matches a specific diet and duration. Meal planners who have weekly planning requirements often need to find specific meals.
 
 This tutorial takes about 10 minutes to complete.
 
@@ -11,6 +11,7 @@ This tutorial requires a local JSON server to make API calls. Before you begin, 
 ## Find a Meal Plan by Diet and Duration
 
 **Goal**: Find 2 days of vegan meal plans.
+
 **Endpoint**: GET /plans
 
 Use the endpoint and add query parameters to filter the results based on the `diet` and `duration` properties.
@@ -60,4 +61,4 @@ The request returns a `200 OK` status and a JSON array containing the plan objec
 
 ## Other Links
 
-[Home](../index.md) | [Setup](../mmprefland.md) | [Tutorials](../mmtutorial.md) | [Reference](../mmref.md)
+[Home](../index.md)  |  [App Considerations](../mmoverview.md)  | [Architecture](../mmarchitecture.md) | [Diagrams](../mmdiagrams.md)  | | [Setup](../mmprefland.md) | [Tutorials](../mmtutorial.md) | [Reference](../mmref.md)

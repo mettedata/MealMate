@@ -10,7 +10,7 @@ See [Before Your Start](mmbefore-you-start.md) to ensure that you have your deve
 
 ## Copy the Repository
 
-1. On GitHub, open the [MealMate API repository](index.md).
+1. On GitHub, open the [MealMate API repository](https://github.com/mettedata/MealMate).
 2. [Fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo#forking-a-repository) the MealMate API service for your own use.
 3. [Clone your fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo#cloning-your-forked-repository) of the MealMate API repository to copy the service's files to your local repository.
 
@@ -52,4 +52,4 @@ Now that you've verified that the MealMate service is started, keep the terminal
 
 ## Other Links
 
-[Home](../index.md) | [Setup](../mmprefland.md) | [Tutorials](../mmtutorial.md) | [Reference](../mmref.md)
+[Home](../index.md) |  [App Considerations](./mmoverview.md)  | [Architecture](../mmarchitecture.md) | [Diagrams](../mmdiagrams.md)  | [Setup](../mmprefland.md) | [Tutorials](../mmtutorial.md) | [Reference](../mmref.md)
