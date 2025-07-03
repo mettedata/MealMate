@@ -21,7 +21,7 @@ The following query parameters are available to filter the results. All paramete
 | Name | Data Type | Required/Optional | Description |
 | --- | --- | --- | --- |
 | `diet` | `string` | Optional | Filter plans by dietary classification (Example: "vegetarian", "vegan"). |
-| `duration`| `string` | Optional | Filter plans by their duration (e.g., "3 days"). |
+| `duration`| `string` | Optional | Filter plans by their duration (Example: "3 days"). |
 | `limit` | `integer` | Optional | The maximum number of plans to return. |
 | `offset` | `integer` | Optional | The number of plans to skip, used for pagination when making subsequent API calls. |
 
@@ -101,4 +101,4 @@ curl -X GET https://localhost:3000/plans
 
 ## Other Links
 
-[Home](../index.md) | [Prerequisites](../mmprefland.md) | [Tutorials](../mmtutorial.md)
+[Home](../index.md) | [Setup](../mmprefland.md) | [Tutorials](../mmtutorial.md)  |  [Reference](../mmref.md)

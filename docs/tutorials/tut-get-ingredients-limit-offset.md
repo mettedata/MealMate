@@ -40,9 +40,9 @@ This combination retrieves items 6 through 10, which represents the second page.
 
 ### Response
 
-The request returns a 200 OK status and a JSON array containing the second page of ingredients.
+The request returns a `200 OK` status and a JSON array containing the second page of ingredients.
 
-```JSON
+```json
 
 
 [

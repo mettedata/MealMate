@@ -99,4 +99,4 @@ curl -X GET https://localhost:3000/ingredients
 
 ## Other Links
 
-[Home](../index.md) | [Prerequisites](../mmprefland.md) | [Tutorials](../mmtutorial.md)
+[Home](../index.md) | [Setup](../mmprefland.md) | [Tutorials](../mmtutorial.md)  |  [Reference](../mmref.md)

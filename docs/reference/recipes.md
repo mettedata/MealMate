@@ -1,4 +1,4 @@
-# Recipes resource (draft)
+# Recipes resource
 
 Contains the ingredient combinations, diet type, and instructions for making a meal.
 Currently, you can only request recipes.
@@ -29,4 +29,4 @@ Currently, you can only request recipes.
 
 ## Other Links
 
-[Home](../index.md)| [Prerequisites](../mmprefland.md) | [Tutorials](../mmtutorial.md)
+[Home](../index.md)| [Setup](../mmprefland.md) | [Tutorials](../mmtutorial.md)
