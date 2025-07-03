@@ -1,4 +1,4 @@
-# Ingredient by ID
+# Ingredients by ID
 
 ## GET /ingredients/{id}
 
@@ -79,4 +79,4 @@ curl -X GET https://localhost:3000/ingredients/3
 
 ## Other Links
 
-[Home](../index.md) | [Setup](../mmprefland.md) | [Tutorials](../mmtutorial.md)  |  [Reference](../mmref.md)
+[Home](../index.md)  |  [App Considerations](../mmoverview.md)  | [Architecture](../mmarchitecture.md) | [Diagrams](../mmdiagrams.md)  | [Setup](../mmprefland.md) | [Tutorials](../mmtutorial.md)  |  [Reference](../mmref.md)

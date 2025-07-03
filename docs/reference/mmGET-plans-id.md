@@ -1,4 +1,4 @@
-# Plan by ID
+# Plans by ID
 
 ## GET /plans/{id}
 
@@ -85,4 +85,4 @@ curl -X GET https://localhost:3000/plans/1
 
 ## Other Links
 
-[Home](../index.md) | [Setup](../mmprefland.md) | [Tutorials](../mmtutorial.md)  |  [Reference](../mmref.md)
+[Home](../index.md) |  [App Considerations](../mmoverview.md)  | [Architecture](../mmarchitecture.md) | [Diagrams](../mmdiagrams.md)   | [Setup](../mmprefland.md) | [Tutorials](../mmtutorial.md)  |  [Reference](../mmref.md)
