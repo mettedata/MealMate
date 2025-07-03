@@ -1,4 +1,4 @@
-# Recipe by ID
+# Recipes by ID
 
 ## GET /recipes/{id}
 
@@ -87,4 +87,4 @@ curl -X GET https://localhost:3000/recipes/2
 
 ## Other Links
 
-[Home](../index.md) | [Setup](../mmprefland.md) | [Tutorials](../mmtutorial.md)  |  [Reference](../mmref.md)
+[Home](../index.md) |  [App Considerations](../mmoverview.md)  | [Architecture](../mmarchitecture.md) | [Diagrams](../mmdiagrams.md)  | [Setup](../mmprefland.md) | [Tutorials](../mmtutorial.md)  |  [Reference](../mmref.md)
