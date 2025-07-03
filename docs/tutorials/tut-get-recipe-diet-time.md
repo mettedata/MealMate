@@ -10,7 +10,16 @@ This tutorial requires a local JSON server to make API calls. Before you begin, 
 
 ## Find a Recipe by Diet and Time
 
-ou can find the recipe using an API client like Postman or a command-line tool like cURL.
+You can find the recipe using an API client like Postman or a command-line tool like cURL.
+
+### Using cURL
+
+1. Open your command-line terminal.
+2. Enter the following command, setting the URL in quotes to respect how command lines reserve the & character to control background operations.
+
+    ```Bash
+    curl -X GET "http://localhost:3000/recipes?diet=vegetarian&prepTime=15"`
+    ```
 
 ### Using Postman
 
@@ -23,18 +32,9 @@ ou can find the recipe using an API client like Postman or a command-line tool l
     `http:localhost:3000/recipes`.
 5. Click **Send**.
 
-### Using cURL
-
-1. Open your command-line terminal.
-2. Enter the following command, setting the URL in quotes to respect how command lines reserve the & character to control background operations.
-
-    ```Bash
-    curl -X GET "http://localhost:3000/recipes?diet=vegetarian&pepTime=15"`
-    ```
-
 ## Expected Response
 
-For both Postman and cURL, the API returns a JSON array of recipe objects that match your criteria:
+For both cURL and Postman, the API returns a JSON array of recipe objects that match your criteria:
 
 ```json
 [
@@ -57,7 +57,7 @@ For both Postman and cURL, the API returns a JSON array of recipe objects that m
 ]
 ```
 
-The query parameter `diet=vegetarian` filters the results to show only recipes with the `vegetarian` property. The `prepTime=15` parameter further narrows the results to recipes that have a preparation time of 15 minutes or less.
+The query parameter `diet=vegetarian` filters the results to show only recipes with the `vegetarian` property. The `prepTime=15` parameter further narrows the results to recipes that have a preparation time of 15 minutes or fewer.
 
 ## Other Tutorials
 
@@ -67,5 +67,5 @@ The query parameter `diet=vegetarian` filters the results to show only recipes w
 
 ## Other Links
 
-[Home](../index.md) | [Setup](../mmprefland.md) | [Tutorials](../mmtutorial.md) | [Reference](../mmref.md)
+[Home](../index.md) |   [App Considerations](../mmoverview.md)  | [Architecture](../mmarchitecture.md) | [Diagrams](../mmdiagrams.md)  | [Setup](../mmprefland.md) | [Tutorials](../mmtutorial.md) | [Reference](../mmref.md)
 

@@ -1,4 +1,4 @@
-# References
+# Reference
 
 Explore the MealMate service's resources and endpoints.
 

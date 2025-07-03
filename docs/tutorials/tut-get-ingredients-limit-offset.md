@@ -1,6 +1,6 @@
 # Paginate Results
 
-When an API can return a large number of items, it often uses pagination to break the results into smaller, more manageable pages. This tutorial guide you through using the `limit` and `offset` parameters to fetch a specific page of results from the API.
+When an API can return a large number of items, it often uses pagination to break the results into smaller, more manageable pages. This tutorial guides you through using the `limit` and `offset` parameters to fetch a specific page of results from the API.
 
 This tutorial takes about 10 minutes to complete.
 
@@ -11,6 +11,7 @@ This tutorial requires a local JSON server to make API calls. Before you begin, 
 ## Fetch a Specific Page of Ingredients
 
 **Goal**: Retrieve the second page of ingredients, assuming each page displays 5 items.
+
 **Endpoint**: GET /ingredients
 
 Use the endpoint and these query parameters to request the second page of ingredients:
@@ -18,12 +19,12 @@ Use the endpoint and these query parameters to request the second page of ingred
 * `limit=5`: Instructs the server to return a maximum of 5 items.
 * `offset=5`: Instructs the server to skip the first 5 items before retrieving the results.
 
-This combination retrieves items 6 through 10, which represents the second page.
+This combination retrieves items 6 through 10, which comprise the second page.
 
 ### Example Request in cURL
 
-1. Open a command-line tool such as Terminal or PowerShell.
-2. Enter (or copy and paste) the following command. Place the URL in quotes to accommodate the "&" character.
+1. Open your command-line terminal.
+2. Enter the following command, setting the URL in quotes to respect how command lines reserve the & character to control background operations.
 
     ```Bash
     curl -X GET "https://localhost:3000/ingredients?limit=5&offset=5"
@@ -81,10 +82,10 @@ The request returns a `200 OK` status and a JSON array containing the second pag
 
 ## Other Tutorials
 
-* [Find a Quick Vegetarian Reciper](tut-get-recipe-diet-time.md)
+* [Find a Quick Vegetarian Recipe](tut-get-recipe-diet-time.md)
 * [Find Ingredients with Specific Attributes](tut-get-ingredients-vegan-protein.md)
 * [Find a Specific Meal Plan](tut-get-plan-diet-duration.md)
 
 ## Other Links
 
-[Home](../index.md) | [Setup](../mmprefland.md) | [Tutorials](../mmtutorial.md) | [Reference](../mmref.md)
+[Home](../index.md) |  [App Considerations](../mmoverview.md)  | [Architecture](../mmarchitecture.md) | [Diagrams](../mmdiagrams.md)  | [Setup](../mmprefland.md) | [Tutorials](../mmtutorial.md) | [Reference](../mmref.md)

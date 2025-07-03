@@ -1,6 +1,6 @@
 # Find Ingredients with Specific Attributes
 
-This tutorial guides you through filtering the GET /ingredients endpoint to find to find ingredients that meet multiple criteria.
+This tutorial guides you through filtering the GET /ingredients endpoint to find ingredients that meet multiple criteria.
 
 This tutorial takes about 10 minutes to complete.
 
@@ -11,6 +11,7 @@ This tutorial requires a local JSON server to make API calls. Before you begin, 
 ## Find Vegan Proteins
 
 **Goal**: Find ingredients that are classified as both vegan and protein.
+
 **Endpoint**: GET /ingredients
 
 Use the endpoint and add query parameters to filter the results based on the `vegan` and `protein` properties.
@@ -56,4 +57,4 @@ The request returns a `200 OK` status and a JSON array containing the ingredient
 
 ## Other Links
 
-[Home](../index.md) | [Setup](../mmprefland.md) | [Tutorials](../mmtutorial.md) | [Reference](../mmref.md)
+[Home](../index.md) |  [App Considerations](../mmoverview.md)  | [Architecture](../mmarchitecture.md) | [Diagrams](../mmdiagrams.md)  | [Setup](../mmprefland.md) | [Tutorials](../mmtutorial.md) | [Reference](../mmref.md)

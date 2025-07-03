@@ -1,6 +1,6 @@
 # Before You Start
 
-To ensure an optimal experience using the MealMate API, we list required and recommended software and tools.
+To ensure an optimal experience using the MealMate API, install the required and recommended software and tools.
 
 ## Required Environment
 
@@ -12,16 +12,16 @@ To set up your development environment, you must have these tools and software:
 To run the mock API server, you must have the following software installed on your development system:
 
 * **[Git][def2]**: Provides version control.
-* **[Node.js][def4]**: Runs the JSON server. Install a current or Long Term Support (LTS) version.
+* **[Node.js][def4]**: Runs the JSON server. Install a current or LTS version.
 * **[json-server][def3]**: Creates the mock API. Install version 0.17.4 or later.
 
 ## Recommended API Clients
 
-The examples in this guide use `cURL` and `Postman` to demonstrate API calls. While you can use any API client, we recommend installing at least one of the following to follow the tutorials and examples easily:
+The examples in this guide use `cURL` and `Postman` to demonstrate API calls. While you can use any API client, these are used the tutorials and examples:
 
 * **[cURL][def5]**: A command-line tool for transferring data with URLs. It comes pre-installed on most macOS and Linux systems.
 * **[Postman][def6]**: Desktop application for API testing.
-* **[GitHub Desktop][def7]**: Desktop application for branching, committing, an dsynchronizing your project with GitHub.
+* **[GitHub Desktop][def7]**: Desktop application for branching, committing, and synchronizing your project with GitHub.
 
 ## Next Steps
 
@@ -29,9 +29,9 @@ The examples in this guide use `cURL` and `Postman` to demonstrate API calls. Wh
 
 ## Other Links
 
-[Home](../index.md)  | [Setup](../mmprefland.md) | [Tutorials](../mmtutorial.md) | [Reference](../mmref.md)
+[Home](../index.md)  |  [App Considerations](./mmoverview.md)  | [Architecture](../mmarchitecture.md) | [Diagrams](../mmdiagrams.md)  | [Setup](../mmprefland.md) | [Tutorials](../mmtutorial.md) | [Reference](../mmref.md)
 
-[def2]: git-scm.com/downloads
+[def2]: https://git-scm.com/downloads
 [def3]: https://www.npmjs.com/package/json-server
 [def4]: https://nodejs.org/en/download
 [def5]: https://curl.se

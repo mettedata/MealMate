@@ -13,7 +13,7 @@ After you set up your development environment, follow this [Quick Start](mmquick
 <http://localhost:3000>
 
 This is a local development URL for this project.
-No authentication is required to us this API. You can make this request using cURL, Postman, or a tool like Postman.
+No authentication is required to use this API. You can make this request using cURL, Postman, or a tool like Postman.
 
 ## Data Format
 
@@ -23,9 +23,9 @@ The API uses JSON for all requests and responses.
 
 Let's start with a call to ensure you can connect to the MealMate API and retrieve data.
 
-**Goal:** Fetch the complete list of ingredients available in the Meal
+**Goal:** Fetch the complete list of ingredients available in the Meal,
 
-**Enpoint:** GET /ingredients
+**Endpoint:** GET /ingredients
 
 ### Steps in cURL
 
@@ -77,6 +77,6 @@ Try the [tutorials](../mmtutorial.md) to practice making other types of calls.
 
 ## Other Links
 
-[Home](../index.md) |  [Setup](../mmprefland.md)  | [Tutorials](../mmtutorial.md) | [Reference](../mmref.md)
+[Home](../index.md) |  [App Considerations](./mmoverview.md)  | [Architecture](../mmarchitecture.md) | [Diagrams](../mmdiagrams.md)  |  [Setup](../mmprefland.md)  | [Tutorials](../mmtutorial.md) | [Reference](../mmref.md)
 
 [def]: mmbefore-you-start.md
