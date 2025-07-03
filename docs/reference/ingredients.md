@@ -1,4 +1,4 @@
-# Ingredients resource (draft)
+# Ingredients resource
 
 Contains the common pantry items that make up recipes. Currently, you can only request ingredients.
 
@@ -24,4 +24,4 @@ Contains the common pantry items that make up recipes. Currently, you can only r
 
 ## Other Links
 
-[Home](../index.md)| [Prerequisites](../mmprefland.md) | [Tutorials](../mmtutorial.md)
+[Home](../index.md)| [Setup](../mmprefland.md) | [Tutorials](../mmtutorial.md)

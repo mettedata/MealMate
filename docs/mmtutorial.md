@@ -14,4 +14,4 @@ The MealMate service enables you to retrieve recipes, meal plans, and ingredient
 
 ## Other Links
 
-[Home](./index.md) | [Prerequisites](./mmprefland.md) | [Reference](./mmref.md)
+[Home](./index.md) | [Setup](./mmprefland.md) | [Reference](./mmref.md)

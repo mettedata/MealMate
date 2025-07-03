@@ -35,4 +35,4 @@ The following is a diagram of the MealMate resource IDs relationship model:
 
 ## Other Links
 
-[Home](./index.md)  |  [Architecture](mmarchitecture.md) | [Prerequisites](./mmprefland.md) | [Tutorials](./mmtutorial.md) | [Reference](./mmref.md)
+[Home](./index.md)  |  [Architecture](mmarchitecture.md) | [Setup](./mmprefland.md) | [Tutorials](./mmtutorial.md) | [Reference](./mmref.md)

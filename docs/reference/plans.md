@@ -27,4 +27,4 @@ Currently, you can only request meal plans.
 
 ## Other Links
 
-[Home](../index.md)| [Prerequisites](../mmprefland.md) | [Tutorials](../mmtutorial.md)
+[Home](../index.md)| [Setup](../mmprefland.md) | [Tutorials](../mmtutorial.md)

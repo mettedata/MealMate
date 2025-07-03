@@ -1,4 +1,4 @@
-# Prerequisites
+# Setup
 
 Before you start using the MealMate API, use these guides to help you get up and running:
 
